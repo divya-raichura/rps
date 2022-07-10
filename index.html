@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RPS</title>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main id="background">
+      <!-- heading -->
+      <div class="page">
+        <h1 id="title">ROCK PAPER SCISSORS</h1>
+      </div>
+
+      <!-- score-board -->
+      <div class="page">
+        <div class="score-board" id="score-board">
+          <button id="cheat">😜</button>
+          <h2>🤖 : <span id="user-score">0</span></h2>
+          <br />
+          <h2>🙋 : <span id="computer-score">0</span></h2>
+        </div>
+      </div>
+
+      <!-- buttons -->
+      <div class="page">
+        <div class="container">
+          <button class="btn" id="Rock">🪨</button>
+          <button class="btn" id="Paper">📄</button>
+          <button class="btn" id="Scissors">✂️</button>
+        </div>
+      </div>
+
+      <!-- display -->
+      <div class="page score-board" id="display"></div>
+    </main>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
